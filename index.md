@@ -51,7 +51,7 @@ In the following, we first show some case in Common voice, VCTK, RAVDESS, Switch
 
 ## Compared with ARDiT.
 
-| <center>  Content (The transcirption of the target audio) </center> | <center> Prompt </center> | <center> NS2 </center>| <center> Ours </center> |
+| <center>  Content (The transcirption of the target audio) </center> | <center> Prompt </center> | <center> ARDiT </center>| <center> Ours </center> |
 | -----------------------     |  -----------   | ------ | ----- |
 | It is this that is of interest to theory of knowledge. | <audio class="audio-player2" src="compare_baseline_mos/ARDiT/prompt/1.wav" controls preload></audio>   | <audio class="audio-player2" src="compare_baseline_mos/ARDiT/bs/1.wav" controls preload></audio> | <audio class="audio-player2" src="compare_baseline_mos/ARDiT/ours/1.wav" controls preload></audio> |
 | For, like as not, they must have thought him a prince when they saw his fine cap. | <audio class="audio-player2" src="compare_baseline_mos/ARDiT/prompt/2.wav" controls preload></audio>   | <audio class="audio-player2" src="compare_baseline_mos/ARDiT/bs/2.wav" controls preload></audio> | <audio class="audio-player2" src="compare_baseline_mos/ARDiT/ours/2.wav" controls preload></audio> |
@@ -61,7 +61,7 @@ In the following, we first show some case in Common voice, VCTK, RAVDESS, Switch
 
 ## Compared with DiTTo-TTS.
 
-| <center>  Content (The transcirption of the target audio) </center> | <center> Prompt </center> | <center> NS2 </center>| <center> Ours </center> |
+| <center>  Content (The transcirption of the target audio) </center> | <center> Prompt </center> | <center> DiTTo-TTS </center>| <center> Ours </center> |
 | -----------------------     |  -----------   | ------ | ----- |
 | do not therefore think that the gothic school is an easy one. | <audio class="audio-player2" src="compare_baseline_mos/ditts/prompt/0.wav" controls preload></audio>   | <audio class="audio-player2" src="compare_baseline_mos/ditts/bs/0.wav" controls preload></audio> | <audio class="audio-player2" src="compare_baseline_mos/ditts/ours/0.wav" controls preload></audio> |
 | She felt the force of the objections. | <audio class="audio-player2" src="compare_baseline_mos/ditts/prompt/1.wav" controls preload></audio>   | <audio class="audio-player2" src="compare_baseline_mos/ditts/bs/1.wav" controls preload></audio> | <audio class="audio-player2" src="compare_baseline_mos/ditts/ours/1.wav" controls preload></audio> |
@@ -81,6 +81,78 @@ We compared with DAC, HiFi-Codec, Encodec, VAE, and Ours.
 | <audio class="audio-player2" src="codec/gt/p225_003.wav" controls preload></audio>   | <audio class="audio-player2" src="codec/dac/p225_003.wav" controls preload></audio> | <audio class="audio-player2" src="codec/hifi/p225_003.wav" controls preload></audio> |  <audio class="audio-player2" src="codec/encodec/p225_003.wav" controls preload></audio> | <audio class="audio-player2" src="codec/vae/p225_003.wav" controls preload></audio> | <audio class="audio-player2" src="codec/ours/p225_003.wav" controls preload></audio> |
 | <audio class="audio-player2" src="codec/gt/p225_004.wav" controls preload></audio>   | <audio class="audio-player2" src="codec/dac/p225_004.wav" controls preload></audio> | <audio class="audio-player2" src="codec/hifi/p225_004.wav" controls preload></audio> |  <audio class="audio-player2" src="codec/encodec/p225_004.wav" controls preload></audio> | <audio class="audio-player2" src="codec/vae/p225_004.wav" controls preload></audio> | <audio class="audio-player2" src="codec/ours/p225_004.wav" controls preload></audio> |
 | <audio class="audio-player2" src="codec/gt/p225_005.wav" controls preload></audio>   | <audio class="audio-player2" src="codec/dac/p225_005.wav" controls preload></audio> | <audio class="audio-player2" src="codec/hifi/p225_005.wav" controls preload></audio> |  <audio class="audio-player2" src="codec/encodec/p225_005.wav" controls preload></audio> | <audio class="audio-player2" src="codec/vae/p225_005.wav" controls preload></audio> | <audio class="audio-player2" src="codec/ours/p225_005.wav" controls preload></audio> |
+
+## Ablation study: The influence of Speech tokenizer
+
+In the following, we show the comparison when different speech tokenizer is used, including our SQ-Codec, VAE, and Encodec. (Corresponding to Table XI in the paper)
+
+| <center>  Content (The transcirption of the target audio) </center> |  <center> Prompt </center> | <center> VAE </center> | <center> Encodec </center>| <center> SQ-Codec (ours) </center>|
+| -----------------------     |  -----------   | ------ | ----- |
+| But at that moment the voice of the stranger was heard from the window. | <audio class="audio-player2" src="ablation/speech_tokenizer/prompt/prompt_17.wav" controls preload></audio>   | <audio class="audio-player2" src="ablation/speech_tokenizer/vae/prompt_17.wav" controls preload></audio>   | <audio class="audio-player2" src="ablation/speech_tokenizer/encodec/prompt_17.wav" controls preload></audio>   | <audio class="audio-player2" src="ablation/speech_tokenizer/ours/prompt_17.wav" controls preload></audio>   |
+| "I don't suppose any one else can find hidden worms that way." | <audio class="audio-player2" src="ablation/speech_tokenizer/prompt/prompt_18.wav" controls preload></audio>   | <audio class="audio-player2" src="ablation/speech_tokenizer/vae/prompt_18.wav" controls preload></audio>   | <audio class="audio-player2" src="ablation/speech_tokenizer/encodec/prompt_18.wav" controls preload></audio>   | <audio class="audio-player2" src="ablation/speech_tokenizer/ours/prompt_18.wav" controls preload></audio>   |
+| The ray from his lantern swung about the room for a moment, then he switched on the electric light. | <audio class="audio-player2" src="ablation/speech_tokenizer/prompt/prompt_19.wav" controls preload></audio>   | <audio class="audio-player2" src="ablation/speech_tokenizer/vae/prompt_19.wav" controls preload></audio>   | <audio class="audio-player2" src="ablation/speech_tokenizer/encodec/prompt_19.wav" controls preload></audio>   | <audio class="audio-player2" src="ablation/speech_tokenizer/ours/prompt_19.wav" controls preload></audio>   |
+
+## Ablation study: the influence of S and d for SQ-Codec reconstruction
+
+In this part, we show some samples to demonstrate the influence of two parameters (S and d) in SQ-Codec.
+
+| S | <center> d </center> | <center> Original Speech </center>| <center> Reconstructed samples </center> |
+| -----------------------     |  -----------   | ------ | ----- |
+| S=10  | d=9 | <audio class="audio-player2" src="codec/gt/p225_001.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/SQ/10dim_9/p225_001.wav" controls preload></audio> |
+| S=10  | d=9 | <audio class="audio-player2" src="codec/gt/p225_002.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/SQ/10dim_9/p225_002.wav" controls preload></audio> |
+| S=10  | d=9 | <audio class="audio-player2" src="codec/gt/p225_003.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/SQ/10dim_9/p225_003.wav" controls preload></audio> |
+| S=20  | d=9 | <audio class="audio-player2" src="codec/gt/p225_001.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/SQ/20dim_9/p225_001.wav" controls preload></audio> |
+| S=20  | d=9 | <audio class="audio-player2" src="codec/gt/p225_002.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/SQ/20dim_9/p225_002.wav" controls preload></audio> |
+| S=20  | d=9 | <audio class="audio-player2" src="codec/gt/p225_003.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/SQ/20dim_9/p225_003.wav" controls preload></audio> |
+| S=50  | d=9 | <audio class="audio-player2" src="codec/gt/p225_001.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/SQ/50dim_9/p225_001.wav" controls preload></audio> |
+| S=50  | d=9 | <audio class="audio-player2" src="codec/gt/p225_002.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/SQ/50dim_9/p225_002.wav" controls preload></audio> |
+| S=50  | d=9 | <audio class="audio-player2" src="codec/gt/p225_003.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/SQ/50dim_9/p225_003.wav" controls preload></audio> |
+| S=32  | d=3 | <audio class="audio-player2" src="codec/gt/p225_001.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/SQ/32dim_3/p225_001.wav" controls preload></audio> |
+| S=32  | d=3 | <audio class="audio-player2" src="codec/gt/p225_002.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/SQ/32dim_3/p225_002.wav" controls preload></audio> |
+| S=32  | d=3 | <audio class="audio-player2" src="codec/gt/p225_003.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/SQ/32dim_3/p225_003.wav" controls preload></audio> |
+| S=32  | d=5 | <audio class="audio-player2" src="codec/gt/p225_001.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/SQ/32dim_5/p225_001.wav" controls preload></audio> |
+| S=32  | d=5 | <audio class="audio-player2" src="codec/gt/p225_002.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/SQ/32dim_5/p225_002.wav" controls preload></audio> |
+| S=32  | d=5 | <audio class="audio-player2" src="codec/gt/p225_003.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/SQ/32dim_5/p225_003.wav" controls preload></audio> |
+| S=32  | d=9 | <audio class="audio-player2" src="codec/gt/p225_001.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/SQ/32dim_9/p225_001.wav" controls preload></audio> |
+| S=32  | d=9 | <audio class="audio-player2" src="codec/gt/p225_002.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/SQ/32dim_9/p225_002.wav" controls preload></audio> |
+| S=32  | d=9 | <audio class="audio-player2" src="codec/gt/p225_003.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/SQ/32dim_9/p225_003.wav" controls preload></audio> |
+
+
+## Ablation study: the influence of different SQ-Codec for generation performance
+
+| S | <center> d </center> | <center> Content </center>| <center> Generated speech </center> |
+| -----------------------     |  -----------   | ------ | ----- |
+| S=10  | d=9 | You see, sir, these sharks are badly designed | <audio class="audio-player2" src="ablation/SQ-gen/10dim_9/prompt_00.wav" controls preload></audio> |
+| S=10  | d=9 | I cannot believe such was the case | <audio class="audio-player2" src="ablation/SQ-gen/10dim_9/prompt_01.wav" controls preload></audio> |
+| S=20  | d=9 | You see, sir, these sharks are badly designed | <audio class="audio-player2" src="ablation/SQ-gen/20dim_9/prompt_00.wav" controls preload></audio> |
+| S=20  | d=9 | I cannot believe such was the case | <audio class="audio-player2" src="ablation/SQ-gen/20dim_9/prompt_01.wav" controls preload></audio> |
+| S=32  | d=9 | You see, sir, these sharks are badly designed | <audio class="audio-player2" src="ablation/SQ-gen/32dim_9/prompt_00.wav" controls preload></audio> |
+| S=32  | d=9 | I cannot believe such was the case | <audio class="audio-player2" src="ablation/SQ-gen/32dim_9/prompt_01.wav" controls preload></audio> |
+| S=50  | d=9 | You see, sir, these sharks are badly designed | <audio class="audio-player2" src="ablation/SQ-gen/50dim_9/prompt_00.wav" controls preload></audio> |
+| S=50  | d=9 | I cannot believe such was the case | <audio class="audio-player2" src="ablation/SQ-gen/50dim_9/prompt_01.wav" controls preload></audio> |
+| S=32  | d=3 | You see, sir, these sharks are badly designed | <audio class="audio-player2" src="ablation/SQ-gen/32dim_3/prompt_00.wav" controls preload></audio> |
+| S=32  | d=3 | I cannot believe such was the case | <audio class="audio-player2" src="ablation/SQ-gen/32dim_3/prompt_01.wav" controls preload></audio> |
+| S=32  | d=5 | You see, sir, these sharks are badly designed | <audio class="audio-player2" src="ablation/SQ-gen/32dim_9/prompt_00.wav" controls preload></audio> |
+| S=32  | d=5 | I cannot believe such was the case | <audio class="audio-player2" src="ablation/SQ-gen/32dim_9/prompt_01.wav" controls preload></audio> |
+
+
+## Ablation study: The influence of different sentence duration for speech synthesis
+
+In this part, we show different sentence duration can be used to synthesize speech, which bring the different prosody.
+
+| <center>  Content (The transcirption of the target audio) </center> | <center> Setence Duration </center>| <center> Synthesized speech </center> |
+| -----------------------     |  -----------   | ------ | ----- |
+| Kids are talking by the door. | 3.5 seconds | <audio class="audio-player2" src="ablation/duration/emo_0.wav" controls preload></audio>   | 
+| Kids are talking by the door. | 3 seconds | <audio class="audio-player2" src="ablation/duration/emo_1.wav" controls preload></audio>  | 
+| Kids are talking by the door. | 2.5 seconds | <audio class="audio-player2" src="ablation/duration/emo_2.wav" controls preload></audio>   | 
+
+## Ablation study: DDPM formulation VS Flow-based formulation
+
+| <center>  Content (The transcirption of the target audio) </center> | <center> DDPM-based </center>| <center> Flow-based </center> |
+| -----------------------     |  -----------   | ------ | ----- |
+| on the at the during this weekend he was there with us. | <audio class="audio-player2" src="ablation/formulation/ddpm/en_4156-A_037143-037407.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/formulation/ours/en_4156-A_037143-037407.wav" controls preload></audio> |
+| Many complicated ideas about the rainbow have been formed. | <audio class="audio-player2" src="ablation/formulation/ddpm/p225_020.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/formulation/ours/p225_020.wav" controls preload></audio> |
+| He is delighted, and he has every right to be. | <audio class="audio-player2" src="ablation/formulation/ddpm/p225_084.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/formulation/ours/p225_084.wav" controls preload></audio> |
 
 
 
