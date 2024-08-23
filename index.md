@@ -132,8 +132,8 @@ In this part, we show some samples to demonstrate the influence of two parameter
 | S=50  | d=9 | I cannot believe such was the case | <audio class="audio-player2" src="ablation/SQ-gen/50dim_9/prompt_01.wav" controls preload></audio> |
 | S=32  | d=3 | You see, sir, these sharks are badly designed | <audio class="audio-player2" src="ablation/SQ-gen/32dim_3/prompt_00.wav" controls preload></audio> |
 | S=32  | d=3 | I cannot believe such was the case | <audio class="audio-player2" src="ablation/SQ-gen/32dim_3/prompt_01.wav" controls preload></audio> |
-| S=32  | d=5 | You see, sir, these sharks are badly designed | <audio class="audio-player2" src="ablation/SQ-gen/32dim_9/prompt_00.wav" controls preload></audio> |
-| S=32  | d=5 | I cannot believe such was the case | <audio class="audio-player2" src="ablation/SQ-gen/32dim_9/prompt_01.wav" controls preload></audio> |
+| S=32  | d=5 | You see, sir, these sharks are badly designed | <audio class="audio-player2" src="ablation/SQ-gen/32dim_5/prompt_00.wav" controls preload></audio> |
+| S=32  | d=5 | I cannot believe such was the case | <audio class="audio-player2" src="ablation/SQ-gen/32dim_5/prompt_01.wav" controls preload></audio> |
 
 
 ## Ablation study: The influence of different sentence duration for speech synthesis
@@ -155,4 +155,37 @@ In this part, we show different sentence duration can be used to synthesize spee
 | He is delighted, and he has every right to be. | <audio class="audio-player2" src="ablation/formulation/ddpm/p225_084.wav" controls preload></audio> | <audio class="audio-player2" src="ablation/formulation/ours/p225_084.wav" controls preload></audio> |
 
 
+## Chinese speech synthesis
+We compare with ChatTTS. Note that ChatTTS does not support clone voice.
+
+| <center>  Content (The transcirption of the target audio) </center> | <center> Prompt </center> | <center> ChatTTS </center>| <center> Ours </center> |
+| -----------------------     |  -----------   | ------ | ----- |
+| 抓住互联网浪潮迎来新的发展 | <audio class="audio-player2" src="cn/prompt/0.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/chattts/0.wav" controls preload></audio> | <audio class="audio-player2" src="cn/gen/0.wav" controls preload></audio> |
+| 他们的资本要求是一样的 | <audio class="audio-player2" src="cn/prompt/1.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/chattts/1.wav" controls preload></audio> | <audio class="audio-player2" src="cn/gen/1.wav" controls preload></audio> |
+| 一千六百一十七 | <audio class="audio-player2" src="cn/prompt/2.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/chattts/2.wav" controls preload></audio> | <audio class="audio-player2" src="cn/gen/2.wav" controls preload></audio> |
+| 这两名淘气小孩儿由一名好心的女士送到了警局 | <audio class="audio-player2" src="cn/prompt/3.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/chattts/3.wav" controls preload></audio> | <audio class="audio-player2" src="cn/gen/3.wav" controls preload></audio> |
+| 东部华侨城茶溪谷 | <audio class="audio-player2" src="cn/prompt/4.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/chattts/4.wav" controls preload></audio> | <audio class="audio-player2" src="cn/gen/4.wav" controls preload></audio> |
+| 西湖春天开元店 | <audio class="audio-player2" src="cn/prompt/5.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/chattts/5.wav" controls preload></audio> | <audio class="audio-player2" src="cn/gen/5.wav" controls preload></audio> |
+| 经济紧张的马某和王某居然想到盗窃汽车卖钱 | <audio class="audio-player2" src="cn/prompt/6.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/chattts/6.wav" controls preload></audio> | <audio class="audio-player2" src="cn/gen/6.wav" controls preload></audio> |
+
+## More samples: let chinese voice speak Chinese and Chinglish
+
+**part1:**
+
+| <center>  Content (The transcirption of the target audio) </center> | <center> Prompt </center> | <center> Ours </center> |
+| -----------------------     |  -----------   | ------ | ----- |
+| 他们的资本request是一样的 | <audio class="audio-player2" src="cn_en/prompt/tai3.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/gen2/1.wav" controls preload></audio> |
+| Jay的你要的love | <audio class="audio-player2" src="cn_en/prompt/tai3.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/gen2/8.wav" controls preload></audio> |
+| 真的好想你的song呀 | <audio class="audio-player2" src="cn_en/prompt/tai3.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/gen2/12.wav" controls preload></audio> |
+| 六十三万一千七百零three | <audio class="audio-player2" src="cn_en/prompt/tai3.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/gen2/13.wav" controls preload></audio> |
+| 热带雨林hotel | <audio class="audio-player2" src="cn_en/prompt/tai3.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/gen2/23.wav" controls preload></audio> |
+| music搜索给你们 | <audio class="audio-player2" src="cn_en/prompt/tai3.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/gen2/30.wav" controls preload></audio> |
+
+**part2:**
+
+| <center>  Content (The transcirption of the target audio) </center> | <center> Prompt </center> | <center> Ours </center> |
+| -----------------------     |  -----------   | ------ | ----- |
+| 抓住互联网浪潮迎来新的development | <audio class="audio-player2" src="cn_en/prompt/tai2.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/gen1/0.wav" controls preload></audio> |
+| 热带雨林hotel | <audio class="audio-player2" src="cn_en/prompt/tai2.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/gen1/23.wav" controls preload></audio> |
+| music 搜索给你们 | <audio class="audio-player2" src="cn_en/prompt/tai2.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/gen1/30.wav" controls preload></audio> |
 
