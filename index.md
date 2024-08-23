@@ -174,18 +174,18 @@ We compare with ChatTTS. Note that ChatTTS does not support clone voice.
 
 | <center>  Content (The transcirption of the target audio) </center> | <center> Prompt </center> | <center> Ours </center> |
 | -----------------------     |  -----------   | ------ | ----- |
-| 他们的资本request是一样的 | <audio class="audio-player2" src="cn_en/prompt/tai3.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/gen2/1.wav" controls preload></audio> |
-| Jay的你要的love | <audio class="audio-player2" src="cn_en/prompt/tai3.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/gen2/8.wav" controls preload></audio> |
-| 真的好想你的song呀 | <audio class="audio-player2" src="cn_en/prompt/tai3.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/gen2/12.wav" controls preload></audio> |
-| 六十三万一千七百零three | <audio class="audio-player2" src="cn_en/prompt/tai3.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/gen2/13.wav" controls preload></audio> |
-| 热带雨林hotel | <audio class="audio-player2" src="cn_en/prompt/tai3.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/gen2/23.wav" controls preload></audio> |
-| music搜索给你们 | <audio class="audio-player2" src="cn_en/prompt/tai3.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/gen2/30.wav" controls preload></audio> |
+| 他们的资本request是一样的 | <audio class="audio-player2" src="cn_en/prompt/tai3.wav" controls preload></audio>   | <audio class="audio-player2" src="cn_en/gen2/1.wav" controls preload></audio> |
+| Jay的你要的love | <audio class="audio-player2" src="cn_en/prompt/tai3.wav" controls preload></audio>   | <audio class="audio-player2" src="cn_en/gen2/8.wav" controls preload></audio> |
+| 真的好想你的song呀 | <audio class="audio-player2" src="cn_en/prompt/tai3.wav" controls preload></audio>   | <audio class="audio-player2" src="cn_en/gen2/12.wav" controls preload></audio> |
+| 六十三万一千七百零three | <audio class="audio-player2" src="cn_en/prompt/tai3.wav" controls preload></audio>   | <audio class="audio-player2" src="cn_en/gen2/13.wav" controls preload></audio> |
+| 热带雨林hotel | <audio class="audio-player2" src="cn_en/prompt/tai3.wav" controls preload></audio>   | <audio class="audio-player2" src="cn_en/gen2/23.wav" controls preload></audio> |
+| music搜索给你们 | <audio class="audio-player2" src="cn_en/prompt/tai3.wav" controls preload></audio>   | <audio class="audio-player2" src="cn_en/gen2/30.wav" controls preload></audio> |
 
 **part2:**
 
 | <center>  Content (The transcirption of the target audio) </center> | <center> Prompt </center> | <center> Ours </center> |
 | -----------------------     |  -----------   | ------ | ----- |
-| 抓住互联网浪潮迎来新的development | <audio class="audio-player2" src="cn_en/prompt/tai2.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/gen1/0.wav" controls preload></audio> |
-| 热带雨林hotel | <audio class="audio-player2" src="cn_en/prompt/tai2.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/gen1/23.wav" controls preload></audio> |
-| music 搜索给你们 | <audio class="audio-player2" src="cn_en/prompt/tai2.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/gen1/30.wav" controls preload></audio> |
+| 抓住互联网浪潮迎来新的development | <audio class="audio-player2" src="cn_en/prompt/tai2.wav" controls preload></audio>   | <audio class="audio-player2" src="cn_en/gen1/0.wav" controls preload></audio> |
+| 热带雨林hotel | <audio class="audio-player2" src="cn_en/prompt/tai2.wav" controls preload></audio>   | <audio class="audio-player2" src="cn_en/gen1/23.wav" controls preload></audio> |
+| music 搜索给你们 | <audio class="audio-player2" src="cn_en/prompt/tai2.wav" controls preload></audio>   | <audio class="audio-player2" src="cn_en/gen1/30.wav" controls preload></audio> |
 
