@@ -163,10 +163,12 @@ We compare with ChatTTS. Note that ChatTTS does not support clone voice.
 | 抓住互联网浪潮迎来新的发展 | <audio class="audio-player2" src="cn/prompt/0.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/chattts/0.wav" controls preload></audio> | <audio class="audio-player2" src="cn/gen/0.wav" controls preload></audio> |
 | 他们的资本要求是一样的 | <audio class="audio-player2" src="cn/prompt/1.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/chattts/1.wav" controls preload></audio> | <audio class="audio-player2" src="cn/gen/1.wav" controls preload></audio> |
 | 一千六百一十七 | <audio class="audio-player2" src="cn/prompt/2.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/chattts/2.wav" controls preload></audio> | <audio class="audio-player2" src="cn/gen/2.wav" controls preload></audio> |
-| 这两名淘气小孩儿由一名好心的女士送到了警局 | <audio class="audio-player2" src="cn/prompt/3.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/chattts/3.wav" controls preload></audio> | <audio class="audio-player2" src="cn/gen/3.wav" controls preload></audio> |
-| 东部华侨城茶溪谷 | <audio class="audio-player2" src="cn/prompt/4.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/chattts/4.wav" controls preload></audio> | <audio class="audio-player2" src="cn/gen/4.wav" controls preload></audio> |
-| 西湖春天开元店 | <audio class="audio-player2" src="cn/prompt/5.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/chattts/5.wav" controls preload></audio> | <audio class="audio-player2" src="cn/gen/5.wav" controls preload></audio> |
 | 经济紧张的马某和王某居然想到盗窃汽车卖钱 | <audio class="audio-player2" src="cn/prompt/6.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/chattts/6.wav" controls preload></audio> | <audio class="audio-player2" src="cn/gen/6.wav" controls preload></audio> |
+| 大发展大繁荣已至窗口期 | <audio class="audio-player2" src="cn/prompt/22.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/chattts/22.wav" controls preload></audio> | <audio class="audio-player2" src="cn/gen/22.wav" controls preload></audio> |
+| 热带雨林酒店 | <audio class="audio-player2" src="cn/prompt/23.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/chattts/23.wav" controls preload></audio> | <audio class="audio-player2" src="cn/gen/23.wav" controls preload></audio> |
+| 考虑到目前成交量上涨的情况 | <audio class="audio-player2" src="cn/prompt/29.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/chattts/29.wav" controls preload></audio> | <audio class="audio-player2" src="cn/gen/29.wav" controls preload></audio> |
+| 音乐搜索给你们 | <audio class="audio-player2" src="cn/prompt/30.wav" controls preload></audio>   | <audio class="audio-player2" src="cn/chattts/30.wav" controls preload></audio> | <audio class="audio-player2" src="cn/gen/30.wav" controls preload></audio> |
+
 
 ## More samples: let chinese voice speak Chinese and Chinglish
 
