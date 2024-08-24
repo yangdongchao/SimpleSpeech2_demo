@@ -3,11 +3,12 @@
 <center> The Chinese University of Hong Kong </center>
 
 ## Introduction
-
+Scaling Text-to-speech (TTS) to large-scale datasets has been demonstrated as an effective method for improving the diversity and naturalness of synthesized speech. At the high level, previous large-scale TTS models can be categorized into either Auto-regressive (AR) based (\textit{e.g.}, VALL-E) or Non-auto-regressive (NAR) based models (\textit{e.g.}, NaturalSpeech 2/3). Although these works demonstrate good performance, they still have drawbacks. For instance, AR-based models are plagued by unstable generation quality and slow generation speed; meanwhile, some NAR-based models need phoneme-level duration alignment information, thereby increasing the complexity of data pre-processing, model design, and loss design. In this work, we extend our previous publication and implement a simple and efficient NAR TTS framework, termed SimpleSpeech 2. SimpleSpeech 2 effectively combines the advantages of previous AR-based and NAR-based methods, includes (1) simple data preparation; (2) simple model and loss design; (3) stable and high-quality generation performance while fast generation speed.
+Compared to our previous publication, we present ({\romannumeral1}) a detailed analysis of the influence of speech tokenizer and noisy label for TTS performance; ({\romannumeral2}) four distinct types of sentence duration predictors; ({\romannumeral3}) a novel flow-based scalar latent transformer diffusion model. With these improvement, we show a significant improvement in generation performance and generation speed compared to our previous work and other state-of-the-art (SOTA) large-scale TTS models. Furthermore, we show that SimpleSpeech 2 can be seamlessly extended to multilingual TTS by training it on multilingual speech datasets.
 
 ## Overview
 The overview of SimpleSpeech 2 as following picture shows.
-![The overview of SimpleSpeech](fig/simplespeech2.png)
+![The overview of SimpleSpeech](ss2.png)
 In the following, we will show some generated samples by our proposed method. 
 
 <style>
