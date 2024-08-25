@@ -1,5 +1,5 @@
 # <center> SimpleSpeech 2: Towards Simple and Efficient Text-to-Speech with Flow-based Scalar Latent Transformer Diffusion Models </center>
-<center> Dongchao Yang, Yuanyuan Wang, Haohan Guo, Rongjie Huang, Dading Chong, Songxiang Liu, Xixin Wu, Helen Meng </center> 
+<center> Dongchao Yang, Rongjie Huang, Yuanyuan Wang, Haohan Guo, Dading Chong, Songxiang Liu, Xixin Wu, Helen Meng </center> 
 <center> The Chinese University of Hong Kong </center>
 
 ## Introduction
