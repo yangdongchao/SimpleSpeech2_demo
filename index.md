@@ -85,9 +85,9 @@ We compared with DAC, HiFi-Codec, Encodec, VAE, and Ours.
 
 ## Ablation study: The influence of Speech tokenizer
 
-In the following, we show the comparison when different speech tokenizer is used, including our SQ-Codec, VAE, and Encodec. (Corresponding to Table XI in the paper)
+In the following, we show the comparison when different speech tokenizer is used, including our SQ-Codec, VAE, and SoundStream. (Corresponding to Table XI in the paper)
 
-| <center>  Content (The transcirption of the target audio) </center> |  <center> Prompt </center> | <center> VAE </center> | <center> Encodec </center>| <center> SQ-Codec (ours) </center>|
+| <center>  Content (The transcirption of the target audio) </center> |  <center> Prompt </center> | <center> VAE </center> | <center> SoundStream </center>| <center> SQ-Codec (ours) </center>|
 | -----------------------     |  -----------   | ------ | ----- |
 | But at that moment the voice of the stranger was heard from the window. | <audio class="audio-player2" src="ablation/speech_tokenizer/prompt/prompt_17.wav" controls preload></audio>   | <audio class="audio-player2" src="ablation/speech_tokenizer/vae/prompt_17.wav" controls preload></audio>   | <audio class="audio-player2" src="ablation/speech_tokenizer/encodec/prompt_17.wav" controls preload></audio>   | <audio class="audio-player2" src="ablation/speech_tokenizer/ours/prompt_17.wav" controls preload></audio>   |
 | "I don't suppose any one else can find hidden worms that way." | <audio class="audio-player2" src="ablation/speech_tokenizer/prompt/prompt_18.wav" controls preload></audio>   | <audio class="audio-player2" src="ablation/speech_tokenizer/vae/prompt_18.wav" controls preload></audio>   | <audio class="audio-player2" src="ablation/speech_tokenizer/encodec/prompt_18.wav" controls preload></audio>   | <audio class="audio-player2" src="ablation/speech_tokenizer/ours/prompt_18.wav" controls preload></audio>   |
